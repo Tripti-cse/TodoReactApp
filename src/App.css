@@ -1,0 +1,13 @@
+
+
+input{
+    width: 100%;
+}
+
+.rowbtn{
+    margin: 10px 5px;
+}
+
+.btn{
+    min-width: 80px;
+}
