@@ -8,3 +8,15 @@
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
     border: 1px solid black;
 }
+
+@media (max-width: 480px) {
+    .container{
+        max-width: 400px;
+        margin: 0 auto;
+        background-origin: solid grey;
+        border-radius: 6px;
+        padding: 12px;
+        margin-top: 30px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    }
+}

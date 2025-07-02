@@ -12,4 +12,29 @@ input{
     min-width: 80px;
 }
 
+@media (max-width: 768px) {
+  .todo-container {
+    width: 90%;
+    padding: 0.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .todo-container {
+    width: 95%;
+    padding: 0.25rem;
+  }
+   .todo-container input {
+    width: 95%;
+  }
+
+  .rowbtn {
+    margin: 5px 3px;
+  }
+
+  .btn {
+    min-width: 40px;
+  }
+}
+
 

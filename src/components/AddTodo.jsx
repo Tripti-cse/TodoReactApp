@@ -7,12 +7,16 @@ function AddTodo ({onNewItem}) {
 
   const handleNameChange =(event) =>{
    setTodoName(event.target.value);
-  }
+  };
    const handleDateChange =(event) =>{
    setDueDate(event.target.value);
   };
 
   const handleAddBtnClick =()=>{
+     if (!todoName.trim() || !dueDate) {
+      alert("Please enter both a todo and a due date.");
+      return;
+    }
     onNewItem(todoName,dueDate);
     setTodoName("");
     setDueDate("");
